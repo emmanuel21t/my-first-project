@@ -12,10 +12,15 @@ body {
     line-height: 1.6;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
 header {
     background-color: #333;
     color: white;
-    text-align: center;
+    text-align: left side;
     padding: 40px 20px;
 }
 
@@ -24,7 +29,7 @@ header h1 {
 }
 
 main {
-    max-width: 1000px;
+    max-width: 100px;
     margin: 30px auto;
     padding: 0 20px;
 }
@@ -33,7 +38,7 @@ main {
     background-color: white;
     padding: 30px;
 
-    display: flex;
+    display: grid;
     align-items: center;
     gap: 40px;
 
@@ -43,13 +48,13 @@ main {
 
 .profile-image {
     flex: 1;
-    text-align: center;
+    text-align: left side;
 }
 
 .profile-image img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
+    object-fit: box;
     border-radius: 50%;
 }
 
@@ -85,7 +90,7 @@ label {
 
 input,
 textarea {
-    width: 100%;
+    width: 40%;
     padding: 15px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -100,8 +105,9 @@ textarea {
 }
 
 button {
+    width: 150px;
     margin-top: 20px;
-    padding: 12px;
+    padding: 10px 20px;
     background-color: #333;
     color: white;
     border: none;
